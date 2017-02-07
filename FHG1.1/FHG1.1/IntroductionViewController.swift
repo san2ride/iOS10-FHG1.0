@@ -22,5 +22,11 @@ class IntroductionViewController: UIViewController {
         navigationItem.titleView = imageView
         
     }
+    
+    @IBAction func quickTourButtonPressed(_ sender: UIButton) {
+        
+        
+    }
+    
 
 }
