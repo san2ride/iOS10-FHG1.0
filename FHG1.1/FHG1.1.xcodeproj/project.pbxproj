@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A41BBD521E4A656100B6CF9D /* TrainStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41BBD511E4A656100B6CF9D /* TrainStartViewController.swift */; };
 		A45533A21E499292002F7F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45533A11E499292002F7F3F /* AppDelegate.swift */; };
 		A45533A91E499292002F7F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45533A71E499292002F7F3F /* Main.storyboard */; };
 		A45533AB1E499292002F7F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45533AA1E499292002F7F3F /* Assets.xcassets */; };
@@ -15,10 +16,10 @@
 		A45533B81E499488002F7F3F /* ProjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45533B71E499488002F7F3F /* ProjectTableViewController.swift */; };
 		A45533BA1E4994B4002F7F3F /* Project1GoalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45533B91E4994B4002F7F3F /* Project1GoalsTableViewController.swift */; };
 		A45533BC1E4994D3002F7F3F /* TrainingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45533BB1E4994D3002F7F3F /* TrainingTableViewController.swift */; };
-		A45533BE1E4994EA002F7F3F /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45533BD1E4994EA002F7F3F /* TrainingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A41BBD511E4A656100B6CF9D /* TrainStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainStartViewController.swift; sourceTree = "<group>"; };
 		A455339E1E499292002F7F3F /* FHG1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHG1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45533A11E499292002F7F3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A45533A81E499292002F7F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		A45533B71E499488002F7F3F /* ProjectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewController.swift; sourceTree = "<group>"; };
 		A45533B91E4994B4002F7F3F /* Project1GoalsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project1GoalsTableViewController.swift; sourceTree = "<group>"; };
 		A45533BB1E4994D3002F7F3F /* TrainingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingTableViewController.swift; sourceTree = "<group>"; };
-		A45533BD1E4994EA002F7F3F /* TrainingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				A45533BB1E4994D3002F7F3F /* TrainingTableViewController.swift */,
-				A45533BD1E4994EA002F7F3F /* TrainingViewController.swift */,
+				A41BBD511E4A656100B6CF9D /* TrainStartViewController.swift */,
 			);
 			name = Training;
 			sourceTree = "<group>";
@@ -205,9 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41BBD521E4A656100B6CF9D /* TrainStartViewController.swift in Sources */,
 				A45533B61E499461002F7F3F /* IntroductionViewController.swift in Sources */,
 				A45533B81E499488002F7F3F /* ProjectTableViewController.swift in Sources */,
-				A45533BE1E4994EA002F7F3F /* TrainingViewController.swift in Sources */,
 				A45533BC1E4994D3002F7F3F /* TrainingTableViewController.swift in Sources */,
 				A45533BA1E4994B4002F7F3F /* Project1GoalsTableViewController.swift in Sources */,
 				A45533A21E499292002F7F3F /* AppDelegate.swift in Sources */,
@@ -372,6 +372,7 @@
 				A45533B41E499292002F7F3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

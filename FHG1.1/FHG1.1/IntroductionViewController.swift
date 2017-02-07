@@ -13,6 +13,7 @@ class IntroductionViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 128, height: 42))
         imageView.contentMode = .scaleAspectFit
         
@@ -25,8 +26,10 @@ class IntroductionViewController: UIViewController {
     
     @IBAction func quickTourButtonPressed(_ sender: UIButton) {
         
+        let url = URL(string: "http://www.thefhguide.com/Tour-V2A.mp4")
+        
+        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
         
     }
-    
 
 }
