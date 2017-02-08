@@ -1,19 +1,15 @@
 //
-//  TrainingTableViewController.swift
+//  MemoriesTableViewController.swift
 //  FHG1.1
 //
-//  Created by don't touch me on 2/6/17.
+//  Created by don't touch me on 2/7/17.
 //  Copyright © 2017 trvl, LLC. All rights reserved.
 //
 
 import UIKit
 
-class TrainingTableViewController: UITableViewController {
-    
-    @IBOutlet weak var startTableViewCell: UITableViewCell!
-    
-    
-    
+class MemoriesTableViewController: UITableViewController {
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -26,33 +22,28 @@ class TrainingTableViewController: UITableViewController {
         navigationItem.titleView = imageView
         
     }
+
     
-    @IBAction func startTableViewCell(_ sender: UITableViewCell) {
-    
-        let url = URL(string: "http://www.thefhguide.com/train.html")
-    
-        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
-        
-    }
 
 //    override func numberOfSections(in tableView: UITableView) -> Int {
 //        // #warning Incomplete implementation, return the number of sections
-//        return 1
+//        return 0
 //    }
 //
 //    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        // #warning Incomplete implementation, return the number of rows
-//        return 9
+//        return 0
 //    }
 //
 //    
 //    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 //
-//        
-//        
+//        // Configure the cell...
+//
 //        return cell
 //    }
     
 
+    
 }

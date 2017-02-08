@@ -1,14 +1,14 @@
 //
-//  Project1GoalsTableViewController.swift
+//  TechTableViewController.swift
 //  FHG1.1
 //
-//  Created by don't touch me on 2/6/17.
+//  Created by don't touch me on 2/7/17.
 //  Copyright © 2017 trvl, LLC. All rights reserved.
 //
 
 import UIKit
 
-class Project1GoalsTableViewController: UITableViewController {
+class TechTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

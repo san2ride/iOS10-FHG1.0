@@ -8,18 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		A41BBD521E4A656100B6CF9D /* TrainStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41BBD511E4A656100B6CF9D /* TrainStartViewController.swift */; };
+		A43FA1FF1E4AE39F00A446B7 /* FamilyTreeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FA1FE1E4AE39F00A446B7 /* FamilyTreeTableViewController.swift */; };
+		A43FA2021E4AE3ED00A446B7 /* MemoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FA2011E4AE3ED00A446B7 /* MemoriesTableViewController.swift */; };
+		A43FA2041E4AE40400A446B7 /* DescendantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FA2031E4AE40400A446B7 /* DescendantsTableViewController.swift */; };
+		A43FA2061E4AE41A00A446B7 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FA2051E4AE41A00A446B7 /* DiscoverTableViewController.swift */; };
+		A43FA2081E4AE43000A446B7 /* IndexingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FA2071E4AE43000A446B7 /* IndexingTableViewController.swift */; };
+		A43FA20A1E4AE43F00A446B7 /* HelpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FA2091E4AE43F00A446B7 /* HelpTableViewController.swift */; };
+		A43FA20C1E4AE45000A446B7 /* TechTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FA20B1E4AE45000A446B7 /* TechTableViewController.swift */; };
+		A43FA20E1E4AE46000A446B7 /* DNATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FA20D1E4AE46000A446B7 /* DNATableViewController.swift */; };
+		A43FA2101E4AE47700A446B7 /* CountriesEthnicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FA20F1E4AE47700A446B7 /* CountriesEthnicTableViewController.swift */; };
 		A45533A21E499292002F7F3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45533A11E499292002F7F3F /* AppDelegate.swift */; };
 		A45533A91E499292002F7F3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45533A71E499292002F7F3F /* Main.storyboard */; };
 		A45533AB1E499292002F7F3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45533AA1E499292002F7F3F /* Assets.xcassets */; };
 		A45533AE1E499292002F7F3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45533AC1E499292002F7F3F /* LaunchScreen.storyboard */; };
 		A45533B61E499461002F7F3F /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45533B51E499461002F7F3F /* IntroductionViewController.swift */; };
 		A45533B81E499488002F7F3F /* ProjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45533B71E499488002F7F3F /* ProjectTableViewController.swift */; };
-		A45533BA1E4994B4002F7F3F /* Project1GoalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45533B91E4994B4002F7F3F /* Project1GoalsTableViewController.swift */; };
 		A45533BC1E4994D3002F7F3F /* TrainingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45533BB1E4994D3002F7F3F /* TrainingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A41BBD511E4A656100B6CF9D /* TrainStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainStartViewController.swift; sourceTree = "<group>"; };
+		A43FA1FE1E4AE39F00A446B7 /* FamilyTreeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyTreeTableViewController.swift; sourceTree = "<group>"; };
+		A43FA2011E4AE3ED00A446B7 /* MemoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoriesTableViewController.swift; sourceTree = "<group>"; };
+		A43FA2031E4AE40400A446B7 /* DescendantsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescendantsTableViewController.swift; sourceTree = "<group>"; };
+		A43FA2051E4AE41A00A446B7 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
+		A43FA2071E4AE43000A446B7 /* IndexingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexingTableViewController.swift; sourceTree = "<group>"; };
+		A43FA2091E4AE43F00A446B7 /* HelpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpTableViewController.swift; sourceTree = "<group>"; };
+		A43FA20B1E4AE45000A446B7 /* TechTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechTableViewController.swift; sourceTree = "<group>"; };
+		A43FA20D1E4AE46000A446B7 /* DNATableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNATableViewController.swift; sourceTree = "<group>"; };
+		A43FA20F1E4AE47700A446B7 /* CountriesEthnicTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesEthnicTableViewController.swift; sourceTree = "<group>"; };
 		A455339E1E499292002F7F3F /* FHG1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHG1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45533A11E499292002F7F3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A45533A81E499292002F7F3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,7 +45,6 @@
 		A45533AF1E499292002F7F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A45533B51E499461002F7F3F /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		A45533B71E499488002F7F3F /* ProjectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewController.swift; sourceTree = "<group>"; };
-		A45533B91E4994B4002F7F3F /* Project1GoalsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project1GoalsTableViewController.swift; sourceTree = "<group>"; };
 		A45533BB1E4994D3002F7F3F /* TrainingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +59,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A43FA2001E4AE3B500A446B7 /* Project Goals */ = {
+			isa = PBXGroup;
+			children = (
+				A43FA1FE1E4AE39F00A446B7 /* FamilyTreeTableViewController.swift */,
+				A43FA2011E4AE3ED00A446B7 /* MemoriesTableViewController.swift */,
+				A43FA2031E4AE40400A446B7 /* DescendantsTableViewController.swift */,
+				A43FA2051E4AE41A00A446B7 /* DiscoverTableViewController.swift */,
+				A43FA2071E4AE43000A446B7 /* IndexingTableViewController.swift */,
+				A43FA2091E4AE43F00A446B7 /* HelpTableViewController.swift */,
+				A43FA20B1E4AE45000A446B7 /* TechTableViewController.swift */,
+				A43FA20D1E4AE46000A446B7 /* DNATableViewController.swift */,
+				A43FA20F1E4AE47700A446B7 /* CountriesEthnicTableViewController.swift */,
+			);
+			name = "Project Goals";
+			sourceTree = "<group>";
+		};
 		A45533951E499292002F7F3F = {
 			isa = PBXGroup;
 			children = (
@@ -118,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				A45533B71E499488002F7F3F /* ProjectTableViewController.swift */,
-				A45533B91E4994B4002F7F3F /* Project1GoalsTableViewController.swift */,
+				A43FA2001E4AE3B500A446B7 /* Project Goals */,
 			);
 			name = Project;
 			sourceTree = "<group>";
@@ -205,12 +237,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43FA20A1E4AE43F00A446B7 /* HelpTableViewController.swift in Sources */,
 				A41BBD521E4A656100B6CF9D /* TrainStartViewController.swift in Sources */,
+				A43FA1FF1E4AE39F00A446B7 /* FamilyTreeTableViewController.swift in Sources */,
+				A43FA2041E4AE40400A446B7 /* DescendantsTableViewController.swift in Sources */,
 				A45533B61E499461002F7F3F /* IntroductionViewController.swift in Sources */,
+				A43FA2061E4AE41A00A446B7 /* DiscoverTableViewController.swift in Sources */,
+				A43FA2081E4AE43000A446B7 /* IndexingTableViewController.swift in Sources */,
+				A43FA20E1E4AE46000A446B7 /* DNATableViewController.swift in Sources */,
+				A43FA20C1E4AE45000A446B7 /* TechTableViewController.swift in Sources */,
 				A45533B81E499488002F7F3F /* ProjectTableViewController.swift in Sources */,
 				A45533BC1E4994D3002F7F3F /* TrainingTableViewController.swift in Sources */,
-				A45533BA1E4994B4002F7F3F /* Project1GoalsTableViewController.swift in Sources */,
+				A43FA2021E4AE3ED00A446B7 /* MemoriesTableViewController.swift in Sources */,
 				A45533A21E499292002F7F3F /* AppDelegate.swift in Sources */,
+				A43FA2101E4AE47700A446B7 /* CountriesEthnicTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
