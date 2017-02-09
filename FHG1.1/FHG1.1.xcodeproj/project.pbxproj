@@ -23,6 +23,7 @@
 		A45533B61E499461002F7F3F /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45533B51E499461002F7F3F /* IntroductionViewController.swift */; };
 		A45533B81E499488002F7F3F /* ProjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45533B71E499488002F7F3F /* ProjectTableViewController.swift */; };
 		A45533BC1E4994D3002F7F3F /* TrainingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45533BB1E4994D3002F7F3F /* TrainingTableViewController.swift */; };
+		A495DD021E4D033500CF15F5 /* IntroductionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495DD011E4D033500CF15F5 /* IntroductionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		A45533B51E499461002F7F3F /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		A45533B71E499488002F7F3F /* ProjectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewController.swift; sourceTree = "<group>"; };
 		A45533BB1E4994D3002F7F3F /* TrainingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingTableViewController.swift; sourceTree = "<group>"; };
+		A495DD011E4D033500CF15F5 /* IntroductionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		A45533C31E499572002F7F3F /* Introduction */ = {
 			isa = PBXGroup;
 			children = (
+				A495DD011E4D033500CF15F5 /* IntroductionTableViewController.swift */,
 				A45533B51E499461002F7F3F /* IntroductionViewController.swift */,
 			);
 			name = Introduction;
@@ -239,6 +242,7 @@
 				A43FA2041E4AE40400A446B7 /* DescendantsTableViewController.swift in Sources */,
 				A45533B61E499461002F7F3F /* IntroductionViewController.swift in Sources */,
 				A43FA2061E4AE41A00A446B7 /* DiscoverTableViewController.swift in Sources */,
+				A495DD021E4D033500CF15F5 /* IntroductionTableViewController.swift in Sources */,
 				A43FA2081E4AE43000A446B7 /* IndexingTableViewController.swift in Sources */,
 				A43FA20E1E4AE46000A446B7 /* DNATableViewController.swift in Sources */,
 				A43FA20C1E4AE45000A446B7 /* TechTableViewController.swift in Sources */,
