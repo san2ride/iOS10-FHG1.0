@@ -9,31 +9,65 @@
 import UIKit
 
 class FamilyTreeTableViewController: UITableViewController {
-
-    var familyTreeGoals = ["1: Navigate", "2: View Details", "3: Children, Other Spouses", "4: Find, Go To", "5: Alternate Views", "6: Change Info", "7: Add Ancestors", "8: Add Sources", "9: Find-a-Record", "10: Notes", "11: Merging", "12: Custom Charts", "13: Account", "App Gallery"]
     
-    
-    
-    
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         
-        return 1
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 128, height: 42))
+        imageView.contentMode = .scaleAspectFit
         
-        return familyTreeGoals.count
+        let image = UIImage(named: "fhgnew4")
+        imageView.image = image
+        
+        navigationItem.titleView = imageView
+        
     }
-
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-
-        let familyTreeName = familyTreeGoals[indexPath.row]
-        cell.textLabel?.text = familyTreeName
-
-        return cell
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let url : URL?
+        
+        switch indexPath.section {
+        case 0:
+            switch indexPath.row {
+            case 0:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-1")
+            case 1:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-2")
+            case 2:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-3")
+            case 3:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-4")
+            case 4:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-5")
+            case 5:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-6")
+            case 6:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-7")
+            case 7:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-8")
+            case 8:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-9")
+            case 9:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-10")
+            case 10:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-11")
+            case 11:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-12")
+            case 12:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-13")
+            case 13:
+                url = URL(string: "http://www.thefhguide.com/project-1-family-tree.html#goal-14")
+            default:
+                return;
+            }
+        default:
+            return;
+        }
+        if url != nil {
+            UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+            
+        }
     }
     
 

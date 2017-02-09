@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A41BBD521E4A656100B6CF9D /* TrainStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41BBD511E4A656100B6CF9D /* TrainStartViewController.swift */; };
 		A43FA1FF1E4AE39F00A446B7 /* FamilyTreeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FA1FE1E4AE39F00A446B7 /* FamilyTreeTableViewController.swift */; };
 		A43FA2021E4AE3ED00A446B7 /* MemoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FA2011E4AE3ED00A446B7 /* MemoriesTableViewController.swift */; };
 		A43FA2041E4AE40400A446B7 /* DescendantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FA2031E4AE40400A446B7 /* DescendantsTableViewController.swift */; };
@@ -27,7 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A41BBD511E4A656100B6CF9D /* TrainStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainStartViewController.swift; sourceTree = "<group>"; };
 		A43FA1FE1E4AE39F00A446B7 /* FamilyTreeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyTreeTableViewController.swift; sourceTree = "<group>"; };
 		A43FA2011E4AE3ED00A446B7 /* MemoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoriesTableViewController.swift; sourceTree = "<group>"; };
 		A43FA2031E4AE40400A446B7 /* DescendantsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescendantsTableViewController.swift; sourceTree = "<group>"; };
@@ -159,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				A45533BB1E4994D3002F7F3F /* TrainingTableViewController.swift */,
-				A41BBD511E4A656100B6CF9D /* TrainStartViewController.swift */,
 			);
 			name = Training;
 			sourceTree = "<group>";
@@ -238,7 +235,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A43FA20A1E4AE43F00A446B7 /* HelpTableViewController.swift in Sources */,
-				A41BBD521E4A656100B6CF9D /* TrainStartViewController.swift in Sources */,
 				A43FA1FF1E4AE39F00A446B7 /* FamilyTreeTableViewController.swift in Sources */,
 				A43FA2041E4AE40400A446B7 /* DescendantsTableViewController.swift in Sources */,
 				A45533B61E499461002F7F3F /* IntroductionViewController.swift in Sources */,

@@ -10,9 +10,6 @@ import UIKit
 
 class TrainingTableViewController: UITableViewController {
     
-    @IBOutlet weak var startTableViewCell: UITableViewCell!
-    
-    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -27,32 +24,43 @@ class TrainingTableViewController: UITableViewController {
         
     }
     
-    @IBAction func startTableViewCell(_ sender: UITableViewCell) {
-    
-        let url = URL(string: "http://www.thefhguide.com/train.html")
-    
-        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        let url : URL?
+        
+        switch indexPath.section {
+        case 0:
+            switch indexPath.row {
+            case 0:
+                url = URL(string: "http://www.thefhguide.com/train.html")
+            case 1:
+                url = URL(string: "http://www.thefhguide.com/train-present.html")
+            case 2:
+                url = URL(string: "http://www.thefhguide.com/train-catalog.html")
+            case 3:
+                url = URL(string: "http://www.thefhguide.com/train-individuals.html")
+            case 4:
+                url = URL(string: "http://www.thefhguide.com/train-families.html")
+            case 5:
+                url = URL(string: "http://www.thefhguide.com/train-groups.html")
+            case 6:
+                url = URL(string: "http://www.thefhguide.com/train-consultants.html")
+            case 7:
+                url = URL(string: "http://www.thefhguide.com/tracker.html")
+            case 8:
+                url = URL(string: "http://www.thefhguide.com/train-tools.html")
+            default:
+                return;
+            }
+        default:
+            return;
+        }
+        if url != nil {
+            UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+            
+        }
     }
 
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return 1
-//    }
-//
-//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        // #warning Incomplete implementation, return the number of rows
-//        return 9
-//    }
-//
-//    
-//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-//
-//        
-//        
-//        return cell
-//    }
     
 
 }
