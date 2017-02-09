@@ -31,5 +31,28 @@ class IntroductionViewController: UIViewController {
         UIApplication.shared.open(url!, options: [:], completionHandler: nil)
         
     }
+    
+    @IBAction func aboutFHGButtonPressed(_ sender: UIButton) {
+        
+        let url = URL(string: "http://www.thefhguide.com/introduction.html")
+        
+        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func vaultButtonPressed(_ sender: UIButton) {
+        
+        let url = URL(string: "http://www.thefhguide.com/vault.html")
+        
+        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func ldsButtonPressed(_ sender: UIButton) {
+        
+        let url = URL(string: "http://www.thefhguide.com/lds.html")
+        
+        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+    }
+    
+    
 
 }

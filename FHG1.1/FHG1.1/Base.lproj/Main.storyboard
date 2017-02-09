@@ -27,33 +27,86 @@
                                     <constraint firstAttribute="height" constant="120" id="bk6-yT-JvL"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOo-rR-E6L">
-                                <rect key="frame" x="0.0" y="182" width="375" height="38"/>
-                                <color key="backgroundColor" red="0.0078431372550000003" green="0.1450980392" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="23"/>
-                                <state key="normal" title="Quick Tour">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="quickTourButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="1Dg-uC-pUa"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="oP8-VV-VuQ">
+                                <rect key="frame" x="0.0" y="305" width="375" height="200"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NOo-rR-E6L">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                                        <color key="backgroundColor" red="0.0078431372550000003" green="0.1450980392" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="hgJ-tc-abO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                        <state key="normal" title="Quick Tour">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="quickTourButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="1Dg-uC-pUa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Wz-lP-gdc">
+                                        <rect key="frame" x="0.0" y="53.5" width="375" height="40"/>
+                                        <color key="backgroundColor" red="0.18039215689999999" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="rMJ-tg-RNJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                        <inset key="contentEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="About The Family History Guide"/>
+                                        <connections>
+                                            <action selector="aboutFHGButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="zn8-G9-6Xp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uI-oZ-a5b">
+                                        <rect key="frame" x="0.0" y="106.5" width="375" height="40"/>
+                                        <color key="backgroundColor" red="0.18039215689999999" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="7Ae-ov-wow"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                        <state key="normal" title="The Vault">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="vaultButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="gtQ-qm-sYg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HgZ-EW-AHg">
+                                        <rect key="frame" x="0.0" y="160" width="375" height="40"/>
+                                        <color key="backgroundColor" red="0.0078431372550000003" green="0.1450980392" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="XlS-NV-8s5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                        <state key="normal" title="LDS Topics">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="ldsButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="V4g-J7-6yI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="NOo-rR-E6L" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="118" id="2HG-ib-p9z"/>
-                            <constraint firstItem="NOo-rR-E6L" firstAttribute="leading" secondItem="0sk-3h-4uM" secondAttribute="leading" id="Hen-mK-Yyx"/>
+                            <constraint firstItem="oP8-VV-VuQ" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" constant="305" id="3aQ-4S-KzX"/>
                             <constraint firstItem="0sk-3h-4uM" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="K4y-wu-990"/>
+                            <constraint firstItem="oP8-VV-VuQ" firstAttribute="leading" secondItem="0sk-3h-4uM" secondAttribute="leading" id="OXp-ep-azg"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="oP8-VV-VuQ" secondAttribute="bottom" constant="118" id="S7n-bx-Mnc"/>
                             <constraint firstAttribute="trailing" secondItem="0sk-3h-4uM" secondAttribute="trailing" id="Snq-Rj-tnf"/>
                             <constraint firstItem="0sk-3h-4uM" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="Y2g-s2-geh"/>
-                            <constraint firstItem="NOo-rR-E6L" firstAttribute="trailing" secondItem="0sk-3h-4uM" secondAttribute="trailing" id="oZ7-w7-AK3"/>
+                            <constraint firstItem="oP8-VV-VuQ" firstAttribute="trailing" secondItem="0sk-3h-4uM" secondAttribute="trailing" id="fuu-Kg-wGX"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="fwZ-sI-e03"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-407" y="-1415"/>
+            <point key="canvasLocation" x="-407.19999999999999" y="-1415.4422788605698"/>
         </scene>
         <!--Project Table View Controller-->
         <scene sceneID="Chk-gw-gpw">
@@ -65,7 +118,7 @@
                         <color key="backgroundColor" red="0.18039215689999999" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="separatorColor" red="0.18039215689999999" green="0.76862745099999996" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="sectionIndexColor" red="0.0078431372550000003" green="0.1450980392" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
-                        <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heroproject4" id="dgl-U0-sGI">
+                        <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="proj1proj" id="dgl-U0-sGI">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
@@ -2068,17 +2121,17 @@
     </scenes>
     <resources>
         <image name="herointro4" width="874" height="263"/>
-        <image name="heroproject4" width="874" height="263"/>
         <image name="herotraining4" width="874" height="263"/>
         <image name="intro1" width="32" height="16"/>
         <image name="proj1couneth" width="874" height="263"/>
         <image name="proj1descen" width="874" height="263"/>
         <image name="proj1disc" width="874" height="263"/>
         <image name="proj1dna" width="874" height="263"/>
-        <image name="proj1famtree" width="874" height="263"/>
+        <image name="proj1famtree" width="1748" height="526"/>
         <image name="proj1help" width="874" height="263"/>
         <image name="proj1indx" width="874" height="263"/>
         <image name="proj1mem" width="874" height="263"/>
+        <image name="proj1proj" width="1748" height="526"/>
         <image name="proj1tech" width="874" height="263"/>
         <image name="project1" width="32" height="27"/>
         <image name="social" width="32" height="31"/>
